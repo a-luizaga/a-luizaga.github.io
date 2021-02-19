@@ -1,0 +1,361 @@
+/*Estructura basica WEB*/
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background:#e6e6e6;
+}
+
+header, .main, footer {
+	width:90%;
+	margin:20px auto;/*el auto lo centra a izq y der*/
+	max-width:1000px;
+	
+}
+
+header nav{
+	background:#528fd5;
+	overflow:hidden; /*el hidden nos recorta el desbordamiento y lo hace invisible*/
+}
+
+header nav ul{
+	list-style-type:none;
+}
+
+header nav ul li{
+	float:left;
+	
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display:block;/*con este display aseguramos el padding de 10px*/
+	color:white;
+	text-decoration:none;
+}
+
+header nav ul li a:hover{
+	background:#75acec;
+}
+
+.main .articles {
+	width:68.5%;
+	margin-right:1.5%;
+	float:left;
+	
+}
+
+.main .articles article{
+	padding:20px;
+	background:white;
+	margin-bottom:20px;/*margen inferior*/
+}
+
+.main aside{
+	width:30%;
+	background:orange;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;/* el padding y el border lo incluimos en el ancho y altura total*/
+}
+
+footer{
+	background:black;
+	color:white;
+	padding: 10px ;
+	text-align:center;
+	clear:both; /*limpiar los float:left */
+}
+
+/* Formularios */
+/*
+form {
+	width:400px;
+	border:1px solid #ccc;
+	margin:20px;
+	padding:20px;	
+}
+
+label {
+	font-size:14px;
+	display:block;
+}
+
+input, textarea {
+	margin-bottom:10px;
+	width:100%;
+	padding:10px;
+	box-sizing: border-box;
+	border:1px solid #ccc;
+}
+
+input:focus{
+	border: 1px solid #1668c4;
+}
+
+input[type="submit"] {
+	margin-bottom:0;
+	background:#1668c4;
+	color:#ccc;
+	boder: none;
+}
+
+input[type="submit"]:hover {
+	background:#4a88f4;
+	cursor:pointer;
+}
+
+textarea {
+	resize:vertical;
+	min-height:100px;
+	max-height:200px;
+}
+*/
+
+/* Tablas */
+/*
+table {
+	border: 1px solid black;
+	border-collapse:collapse;
+	width:500px;
+}	
+
+table td {
+	border: 1px solid black;
+	padding:15px;
+}
+
+table tr:hover{
+	background:blue;
+	
+}
+
+table td:hover{
+	background:red;
+	color:white;
+}
+*/
+
+
+/*Listas */
+/*
+.menu {
+	width:100%;
+	background:#000;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.menu li{
+	display:inline-block;
+}
+
+.menu li a {
+	width:50px;
+	padding:10px 35px;
+	display:inline-block;
+	color:#fff;
+}
+
+.menu li a:hover{
+	background:#ccc;
+	color:000;
+}
+
+ul {
+	list-style-type:square;
+	
+}
+
+ol {
+	list-style-type:decimal-leading-zero;
+	
+}
+*/
+
+/*Imagenes */
+/*
+div {
+	
+	width: 100%;
+	padding:10px;
+	border:2px solid #000;
+	
+}
+
+img {
+	width:300px;
+	height: auto;
+	display:block;
+	border-radius:20px;
+	box-shadow: 5px 5px 0px #424242;
+	padding:10px;
+	1border:2px solid #ccc;
+}
+*/
+
+/* Enlaces */
+/*
+a {
+	font-size:20px;
+	text-decoration:none;
+	background: white;
+	
+}
+
+a:link {
+	color:green;
+	background:red;
+	
+}
+
+a:hover {
+	text-dec oration:underline;
+	background:black;
+	color:white;
+}
+
+a:active {
+	background:blue;
+}
+*/
+
+
+/*Testo y tipogorafia */
+
+/*
+p {
+	color:blue;
+	font-family:Arial;
+	font-size
+	font-weight:bold;
+	line-height:20px;
+	text-decoration:none;
+	text-transform: uppercase;
+	letter-spacing: normal;
+	word-spacing: normal;
+	
+	text-shadow:1px 1px 0px #000;
+}
+*/
+
+/* Posicionamiento de cajas */
+/*
+div {
+	width: 100px;
+	height: 100px;
+	background: #4A88F4;
+	color:#fff;
+	font-size:30px;
+	float:left;
+	
+}
+
+
+.caja_padre {
+	width: 500px;
+	height: 500px;
+	background: #000;
+	position:relative;
+}
+
+.caja {
+	
+	position:static;
+	top:100px;
+	bottom:;
+	right:;
+	left:;
+}
+*/
+
+
+/*Fondos */
+/*
+body 
+{
+	background:url(../imagenes/logo.jpg);
+	background-repeat:no-repeat;
+	background-position:center 100px;
+	color:white;
+}
+ */
+
+
+/*body h1 p son selectores**/
+/*
+body {
+		background:#ffffff;
+		color:black;
+	}
+*/
+/* el asterisco es un selector q afecta a todos los selectores de la pagina*/
+/*
+	*{
+		
+		margin:0;
+		padding:0;
+		color:red;
+	}
+*/	
+
+
+/* Selectores */
+/*
+h1 {
+	color:blue;
+	font-size:40px;
+	text-decoration: underline;
+}
+
+h2 {
+	color:red;
+	font-size:30px;
+	text-decoration: underline;
+}
+
+p {
+	color:#000000;
+	font-size:20px;
+}
+
+b {
+	color:red;
+	font-size:20px
+}
+
+a {
+	color:purple;
+	font-size:25;
+	text-decoration:underline;	
+}
+
+a[href="http://www.facebook.com"] {
+	color:green;
+	font-size:30px;
+}
+*/
+
+/*Uso de clases: se pone el punto . */
+/*
+.yellow {
+	color:yellow;
+}
+*/
+
+
+/* Descendencia: afecta a los b dentro de los parrafos solamente */
+/*
+p b {
+	color:blue;
+	font-size:20px;
+}
+
+p a {
+	color:blue;
+	font-size:20px;
+}
+*/
